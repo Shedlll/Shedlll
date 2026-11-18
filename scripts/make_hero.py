@@ -192,7 +192,7 @@ def hero():
     dots = "".join(f'<circle cx="{L+20+i*18}" cy="16" r="5.5" fill="{c}"/>'
                    for i, c in enumerate([TONES["b"][2], "#4a4536", TONES["g"][2]]))
     titlebar = (f'<g class="{chrome}"><path d="M{L} 12a12 12 0 0 1 12-12h{R-L-24}a12 12 0 0 1 12 12v{TOP-12}H{L}z" '
-                f'fill="{C["bar"]}"/>{dots}{t(W/2, 20.5, "~/shedlll — oh-my-posh", C["dim"], 12, " text-anchor=\"middle\"")}</g>')
+                f'fill="{C["bar"]}"/>{dots}{t(W/2, 20.5, "~/shedlll — oh-my-spark", C["dim"], 12, " text-anchor=\"middle\"")}</g>')
 
     # panel
     label = "shedlll"; labelW = len(label) * 13 * 0.6 + 14
